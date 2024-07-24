@@ -8,20 +8,18 @@ const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
 export const metadata: Metadata = {
   metadataBase: new URL("http://localhost:3000"),
 
-  title: {
-    template: "%s | Daily Vote",
-    default: "sanvert",
-  },
+  title: "sanvert",
+
   authors: {
     name: "sanvert",
   },
 
   description:
-    "Cast your vote now and see live updates on the poll results, powered by the real-time capabilities of Supabase database integration in our web app",
+    "Based in Cambodia, I'm a Fullstack developer passionate about buildin",
   openGraph: {
     title: "sanvert",
     description:
-      "Cast your vote now and see live updates on the poll results, powered by the real-time capabilities of Supabase database integration in our web app.",
+      "Based in Cambodia, I'm a Fullstack developer passionate about buildin",
     url: "http://localhost:3000",
     siteName: "sanvert",
     images: "/og.png",

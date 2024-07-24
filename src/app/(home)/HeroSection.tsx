@@ -1,4 +1,5 @@
 "use client";
+import { FlipWordsDemo } from "@/components/FlipWordsDemo";
 import Title from "@/components/Title";
 import { MovingBorderBtn } from "@/components/ui/moving-border";
 import Link from "next/link";
@@ -13,7 +14,7 @@ export default function HeroSection() {
           Nice to meet you! 👋
           <br />
           <span className="underline underline-offset-8 decoration-green-500">
-            {"I'm San Vert."}
+            {"I'm"} <FlipWordsDemo />
           </span>
         </h1>
         <p className="md:w-96 text-lg text-gray-300">
